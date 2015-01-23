@@ -20,15 +20,15 @@
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
 				      </button>
-				      <a class="navbar-brand" href="#">Brand</a>
+				      <a class="navbar-brand" href="#">I Quiz You!</a>
 				    </div>
 
 				    <!-- Collect the nav links, forms, and other content for toggling -->
 				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				      <ul class="nav navbar-nav">
-				        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-				        <li><a href="#">Link</a></li>
-				        <li class="dropdown">
+				        <li class="active"><a href="#">Make Quiz <span class="sr-only">(current)</span></a></li>
+				        <li><a href="#">Do Quiz</a></li>
+<!-- 				        <li class="dropdown">
 				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
 				          <ul class="dropdown-menu" role="menu">
 				            <li><a href="#">Action</a></li>
@@ -37,7 +37,7 @@
 				            <li class="divider"></li>
 				            <li><a href="#">Separated link</a></li>
 				            <li class="divider"></li>
-				            <li><a href="#">One more separated link</a></li>
+				            <li><a href="#">One more separated link</a></li> -->
 				          </ul>
 				        </li>
 				      </ul>
@@ -50,8 +50,8 @@
 		<div class="container">
 			<div class="jumbotron">
 			  <h1>Hello, President Obama!</h1>
-			  <p>How's your day today?</p>
-			  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+			  <p>Ready to make a Quiz?</p>
+			  <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> -->
 			</div>
 		</div>
 		
@@ -60,7 +60,7 @@
 				<!-- <div class=" col-sm-6 col-xs-12"> -->
 				<div class=" col-sm-12 col-xs-12"> 
 					<div class="panel panel-primary">
-					  <div class="panel-heading">Widget 1</div>
+					  <div class="panel-heading">Question 1</div>
 					  <div class="panel-body">
 					  	<div class="input-group">
 					  		<input type="text" class="form-control" placeholder="What is your question" aria-describedby="basic-addon0">
@@ -91,33 +91,40 @@
 			<!-- end of row div -->
 		</div>
 
-		<div>
-			<div class="container">
+		<div class="container">
+			<div class="row">
+				<div class=" col-sm-12 col-xs-12"> 
+					<div class="panel panel-primary">
+					  	<div class="panel-heading">Answers</div>
+					  	<div class="panel-body">
+							<div class="input-group">
+							  <span class="input-group-addon" id="basic-addon1">Answer (A)</span>
+							  <input type="text" class="form-control" placeholder="Write your answer here" aria-describedby="basic-addon2">
+							</div>
 
-				<div class="input-group">
-				  <span class="input-group-addon" id="basic-addon1">Answer (A)</span>
-				  <input type="text" class="form-control" placeholder="Write your answer here" aria-describedby="basic-addon2">
-				</div>
+							<div class="input-group">
+							  <span class="input-group-addon" id="basic-addon2">Answer (B)</span>
+							  <input type="text" class="form-control" placeholder "Write your answer here" aria-describedby="basic-addon3">
+							</div>
 
-				<div class="input-group">
-				  <span class="input-group-addon" id="basic-addon2">Answer (B)</span>
-				  <input type="text" class="form-control" placeholder "Write your answer here" aria-describedby="basic-addon3">
-				</div>
+							<div class="input-group">
+							  <span class="input-group-addon" id="basic-addon3">Answer (C)</span>
+							  <input type="text" class="form-control" placeholder "Write your answer here" aria-describedby="basic-addon4">
+							</div>
 
-				<div class="input-group">
-				  <span class="input-group-addon" id="basic-addon3">Answer (C)</span>
-				  <input type="text" class="form-control" placeholder "Write your answer here" aria-describedby="basic-addon4">
-				</div>
-
-				<div class="input-group">
-				  <span class="input-group-addon" id="basic-addon4">Answer (D)</span>
-				  <input type="text" class="form-control" placeholder "Write your answer here" aria-describedby="basic-addon5">
-				</div>
+							<div class="input-group">
+							  <span class="input-group-addon" id="basic-addon4">Answer (D)</span>
+							  <input type="text" class="form-control" placeholder "Write your answer here" aria-describedby="basic-addon5">
+							</div>
+				  		</div>
+			  		</div>
+		  		</div>
 			</div>
 		</div>
 
 		<div class="container">
-			<a href="#" class="btn btn-primary">Do Something</a>	
+			<a href="#" class="btn btn-primary" id="btn-finish">Finish Making</a>
+			<a href="#" class="btn btn-primary" id="btn-next">Next Question</a>	
 		</div>
 
 		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js" />

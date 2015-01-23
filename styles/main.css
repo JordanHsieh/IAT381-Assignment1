@@ -2,15 +2,7 @@
   width: device-width;
 }
 
-.darkBG {
-	background: #999;
+.jumbotron {
+	padding: 15px 15px;
+	margin-bottom: 0px;
 }
-
-.darkerBG {
-	background: #666;
-}
-
-.darkestBG {
-	background: #333;
-}
-
