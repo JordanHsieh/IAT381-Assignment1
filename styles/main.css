@@ -1,3 +1,7 @@
+@-ms-viewport{
+  width: device-width;
+}
+
 .darkBG {
 	background: #999;
 }
@@ -9,3 +13,4 @@
 .darkestBG {
 	background: #333;
 }
+
